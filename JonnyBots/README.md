@@ -37,7 +37,14 @@ source .venv/bin/activate   # On macOS/Linux
 .'\'.venv\Scripts\activate    # On Windows
 
 ### 3. Install Dependencies
+After
+To install these dependencies, clone this repository. Make sure you’re in your project’s virtual environment and run this:
+
+```
 pip install -r requirements.txt
+```
+
+Believe it or not, that should install the exact versions specified for each package. The hardest part will be grabbing an API key and configuring Twilio.
 
 ### 4. Create a .env File
 In the root directory, create a .env file to securely store your API keys and environment variables:
