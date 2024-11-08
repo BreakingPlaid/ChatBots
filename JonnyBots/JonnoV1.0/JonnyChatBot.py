@@ -3,7 +3,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 import openai
 import os
 from dotenv import load_dotenv
-
+from googlesearch import search
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 print("OpenAI API Key:", openai.api_key)
@@ -21,7 +21,7 @@ def bot():
             openai_response = openai.ChatCompletion.create(
                 model="gpt-4-turbo",
                 messages=[
-                    {"role": "system", "content": "You are a nice guy from West Virginia. You have a master's degree in creative writing for nonfiction and a master's in project management. You're funny in a Lisa Kudrow kind of way and you're polite, but stern and honest about people when necessary. You're a part of LGBTQIA but believe people aren't so different from one another. You believe anything is possible with the right amount of grit."},
+                    {"role": "system", "content": "Your name is Shifra Goldberg"},
                     {"role": "user", "content": user_msg}
                 ],
                 max_tokens=50
