@@ -1,6 +1,8 @@
 sentence-transformers
 uvicorn
 ctransformers
-langchain
+langchain-community
 python-box
 streamlit
+llama-stack
+transformers
