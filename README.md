@@ -1,5 +1,5 @@
 # ChatBots
-(Yes, Breaking Plaid let an LLM write this entry— it's on brand 🤖)
+(Yes, Breaking Plaid let an LLM write this README— it's on brand 🤖)
 
 Welcome! This repository contains various projects focused on AI, automation, and chatbot development. Below, you’ll find a quick overview of the types of technologies and ideas explored in this folder.  
 
